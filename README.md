@@ -1,9 +1,9 @@
-# 🏥 Clinical Decision Support System  
+# Clinical Decision Support System  
 ### AI-Based Patient Deterioration Prediction & Nurse Visit Prioritization
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project implements an **AI-powered clinical decision support system** designed to assist hospital staff in identifying high-risk patients and optimizing nurse visit schedules.
 
@@ -16,7 +16,7 @@ The goal is to improve **patient safety**, **resource utilization**, and **workf
 
 ---
 
-## 👥 Group Members & Roles
+## Group Members & Roles
 
 | Name    | Role |
 |---------|------|
@@ -26,8 +26,16 @@ The goal is to improve **patient safety**, **resource utilization**, and **workf
 
 All members contributed to Streamlit GUI and Documentation 
 ---
+## Dataset Source
 
-## 🧠 AI Approach Summary
+The training dataset used in this project is the **Hospital Clinical Deterioration Dataset**
+obtained from **Kaggle**.
+
+Due to file size limitations, the dataset is not included in this repository and must be
+downloaded manually before running the training notebook.
+---
+
+## AI Approach Summary
 
 ### 1. Machine Learning (Risk Prediction)
 - **Task:** Binary classification  
@@ -63,7 +71,7 @@ This approach enables **fast, dynamic replanning**, making it suitable for real 
 
 ---
 
-## 🖥️ Graphical User Interface (GUI)
+## Graphical User Interface (GUI)
 
 The GUI is built using **Streamlit** and allows:
 - Viewing patient status and risk levels
@@ -78,20 +86,17 @@ In a real deployment, it would be connected to live hospital systems.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 .
 ├── model_training/
 │   ├── train_model.ipynb
-│   ├── hospital_deterioration_ml_ready.csv
-│
+│   
 ├── gui/
 │   ├── app.py
 │   ├── patients_db.csv
-│   ├── rf_deterioration_model.pkl
-│   ├── feature_columns.pkl
-│
+|
 ├── README.md
 └── requirements.txt
 ```
@@ -113,10 +118,6 @@ git clone https://github.com/your-username/clinical-decision-support-system.git
 ## Step 2: Navigate to the Project Folder
 
 Move into the project root directory:
-```bash
-cd clinical-decision-support-system
-```
-or
 ```bash
 python -m pip install -r requirements.txt
 ```
@@ -163,10 +164,6 @@ into the gui/ folder so they are located next to app.py.
 
 ## Step 7: Run the Graphical User Interface
 From the project root directory, start the Streamlit application:
-```bash
-streamlit run gui/app.py
-```
-or 
 ```bash
 python -m streamlit run app.py
 ```
