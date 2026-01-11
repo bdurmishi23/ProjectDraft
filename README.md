@@ -20,11 +20,11 @@ The goal is to improve **patient safety**, **resource utilization**, and **workf
 
 | Name    | Role |
 |---------|------|
-| **Belina** | Project Lead, System Architecture, Random Forest, NEWS2 Logic, A* Planning |
+| **Belina** | System Architecture, Random Forest, NEWS2 Logic, Greedy A* Planning |
 | **Elisona** | XGBoost Modeling, Model Comparison & Selection |
-| **Evelina** | Model Evaluation, Results Interpretation & Documentation |
+| **Evelina** | Model Evaluation, Results Interpretation|
 
-
+All members contributed to Streamlit GUI and Documentation 
 ---
 
 ## 🧠 AI Approach Summary
@@ -83,7 +83,7 @@ In a real deployment, it would be connected to live hospital systems.
 ```text
 .
 ├── model_training/
-│   ├── train_model.py
+│   ├── train_model.ipynb
 │   ├── hospital_deterioration_ml_ready.csv
 │
 ├── gui/
