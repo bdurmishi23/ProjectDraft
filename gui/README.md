@@ -67,4 +67,9 @@ From the project root directory, run the training script:
 ```bash
 python model_training/train_model.py
 
+gui/
+├── app.py
+├── patients_db.csv
+├── rf_deterioration_model.pkl
+└── feature_columns.pkl
 
