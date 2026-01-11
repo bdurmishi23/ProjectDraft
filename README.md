@@ -112,7 +112,7 @@ Support System locally.
 Open a terminal and clone the project repository using:
 
 ```bash
-git clone https://github.com/your-username/clinical-decision-support-system.git
+git clone https://github.com/bdurmishi23/ProjectDraft.git
 
 ```
 ## Step 2: Navigate to the Project Folder
