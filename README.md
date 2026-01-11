@@ -135,7 +135,7 @@ This installs the dependencies needed for both model training and the GUI.
 
 ## Step 4: Download the Dataset
 The training dataset is not included in the repository due to file size limitations.
-1. Download the Hospital Clinical Deterioration Dataset from Kaggle.
+1. Download the Hospital Clinical Deterioration Dataset from this link: https://drive.google.com/file/d/1O3vETFRNkBsz1Kkaa7AIEyVs_2hPSUBt/view?usp=sharing
 2. Place the dataset file (hospital_deterioration_ml_ready.csv)
 inside the model_training/ folder.
 
