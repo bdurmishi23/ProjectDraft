@@ -22,7 +22,7 @@ The goal is to improve **patient safety**, **resource utilization**, and **workf
 | **Elisona** | XGBoost Modeling, Model Comparison & Selection |
 | **Evelina** | Model Evaluation, Results Interpretation|
 
-All members contributed to Streamlit GUI and Documentation 
+#### All members contributed to Streamlit GUI and Documentation 
 ---
 ## Dataset Source
 
