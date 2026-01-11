@@ -1,6 +1,4 @@
 # Clinical Decision Support System  
-### AI-Based Patient Deterioration Prediction & Nurse Visit Prioritization
-
 ---
 
 ## Project Overview
