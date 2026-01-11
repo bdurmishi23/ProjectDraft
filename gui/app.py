@@ -281,6 +281,14 @@ import joblib
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MODEL_PATH = os.path.join(BASE_DIR, "model_training", "rf_deterioration_model.pkl")
+import streamlit as st
+
+st.write("Current working directory:", os.getcwd())
+st.write("Files in cwd:", os.listdir(os.getcwd()))
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+st.write("BASE_DIR:", BASE_DIR)
+st.write("Files in BASE_DIR:", os.listdir(BASE_DIR))
 
 model = joblib.load(MODEL_PATH)
 
