@@ -169,14 +169,7 @@ Running the notebook will:
 - rf_deterioration_model.pkl
 - feature_columns.pkl
 
-## Step 6: Move Model Files to the GUI Folder
-
-After training is completed, copy the generated files:
-- rf_deterioration_model.pkl
-- feature_columns.pkl
-into the gui/ folder so they are located next to app.py.
-
-### Step 7: Run the Graphical User Interface (GUI)
+### Step 6: Run the Graphical User Interface (GUI)
 
 After the model files have been generated and saved into the `gui/` folder,
 the Streamlit application can be started as follows:
