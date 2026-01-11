@@ -169,5 +169,9 @@ From the project root directory, start the Streamlit application:
 ```bash
 streamlit run gui/app.py
 ```
+or 
+```bash
+python -m streamlit run app.py
+```
 The application will open in the web browser and display the patient monitoring
 dashboard, deterioration risk predictions, and optimized nurse visit sequence.
