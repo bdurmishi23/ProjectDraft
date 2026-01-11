@@ -139,6 +139,14 @@ The training dataset is not included in the repository due to file size limitati
 2. Place the dataset file (hospital_deterioration_ml_ready.csv)
 inside the model_training/ folder.
 
+## Prerequisite 
+Environment Requirements
+This project was developed and tested using:
+- **Python version:** 3.13
+
+To avoid dependency and kernel mismatch issues, it is strongly recommended to
+use **Python 3.13** when running the training notebook and the GUI.
+
 ## Step 5: Train the Machine Learning Model
 Open the notebook:
 ```bash
