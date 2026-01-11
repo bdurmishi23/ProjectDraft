@@ -20,7 +20,7 @@ The goal is to improve **patient safety**, **resource utilization**, and **workf
 
 | Name    | Role |
 |---------|------|
-| **Bedina** | Project Lead, System Architecture, Random Forest, NEWS2 Logic, A* Planning |
+| **Belina** | Project Lead, System Architecture, Random Forest, NEWS2 Logic, A* Planning |
 | **Elisona** | XGBoost Modeling, Model Comparison & Selection |
 | **Evelina** | Model Evaluation, Results Interpretation & Documentation |
 
