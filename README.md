@@ -119,6 +119,10 @@ Move into the project root directory:
 ```bash
 cd clinical-decision-support-system
 ```
+or
+```bash
+python -m pip install -r requirements.txt
+```
 The project root directory contains:
 - requirements.txt
 - model_training/
