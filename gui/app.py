@@ -276,13 +276,14 @@ st.markdown("""
 
 #Load model and feature list
 
-@st.cache_resource
-def load_model():
-    model = joblib.load("rf_deterioration_model.pkl")
-    feature_cols = joblib.load("feature_columns.pkl")
-    return model, feature_cols
+import os
+import joblib
 
-model, feature_cols = load_model()
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MODEL_PATH = os.path.join(BASE_DIR, "model_training", "rf_deterioration_model.pkl")
+
+model = joblib.load(MODEL_PATH)
+
 
 #Load patient database
 patients_db = pd.read_csv("patients_db.csv")
