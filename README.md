@@ -110,20 +110,22 @@ Support System locally.
 Open a terminal and clone the project repository using:
 
 ```bash
-git clone https://github.com/bdurmishi23/ProjectDraft.git
+git clone https://github.com/bdurmishi23/TermProject.git
 
 ```
 ## Step 2: Navigate to the Project Folder
 
 Move into the project root directory:
 ```bash
-cd ProjectDraft
+cd TermProject
 ```
 The project root directory contains:
 - requirements.txt
 - model_training/
 - gui/
 - README.md
+
+Usually it will be saved to C:\Users\User\TermProject
 
 ## Step 3: Install Dependencies
 
@@ -168,8 +170,17 @@ After training is completed, copy the generated files:
 - feature_columns.pkl
 into the gui/ folder so they are located next to app.py.
 
-## Step 7: Run the Graphical User Interface
-From the project root directory, start the Streamlit application:
+### Step 7: Run the Graphical User Interface (GUI)
+
+After the model files have been generated and saved into the `gui/` folder,
+the Streamlit application can be started as follows:
+
+1. Open the project folder in **File Explorer**.
+2. Navigate to the `gui/` folder.
+3. **Right-click** inside the `gui/` folder and select **“Open in Terminal”**
+   (or **“Open in Command Prompt” / “Open PowerShell window here”** on Windows).
+4. In the opened terminal, run:
+
 ```bash
 python -m streamlit run app.py
 ```
