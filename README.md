@@ -29,7 +29,7 @@ The goal is to improve **patient safety**, **resource utilization**, and **workf
 The training dataset used in this project is the **Hospital Clinical Deterioration Dataset**
 obtained from **Kaggle**.
 
-Due to file size limitations, the dataset is not included in this repository and must be
+#### Due to file size limitations, the dataset is not included in this repository and must be
 downloaded manually before running the training notebook.
 ---
 
