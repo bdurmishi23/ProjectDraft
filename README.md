@@ -18,15 +18,12 @@ The goal is to improve **patient safety**, **resource utilization**, and **workf
 
 ## 👥 Group Members & Roles
 
-| Name | Role |
-|-----|------|
-| *Your Name* | Machine Learning, Model Training |
-| *Member Name* | Dataset Preparation & Analysis |
-| *Member Name* | Planning Algorithm (Greedy A*) |
-| *Member Name* | GUI Development (Streamlit) |
-| *Member Name* | Documentation & Evaluation |
+| Name    | Role |
+|---------|------|
+| **Bedina** | Project Lead, System Architecture, Random Forest, NEWS2 Logic, A* Planning |
+| **Elisona** | XGBoost Modeling, Model Comparison & Selection |
+| **Evelina** | Model Evaluation, Results Interpretation & Documentation |
 
-*(Update this table with your actual group members and responsibilities.)*
 
 ---
 
