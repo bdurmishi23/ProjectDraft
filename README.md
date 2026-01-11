@@ -117,7 +117,7 @@ git clone https://github.com/bdurmishi23/ProjectDraft.git
 
 Move into the project root directory:
 ```bash
-python -m pip install -r requirements.txt
+cd ProjectDraft
 ```
 The project root directory contains:
 - requirements.txt
