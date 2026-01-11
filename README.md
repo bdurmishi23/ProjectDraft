@@ -136,8 +136,8 @@ Install all required Python libraries by running:
 pip install -r requirements.txt
 ```
 This installs the dependencies needed for both model training and the GUI.
-```
-##Step 4: Download the Dataset
+
+## Step 4: Download the Dataset
 The training dataset is not included in the repository due to file size limitations.
 1. Download the Hospital Clinical Deterioration Dataset from Kaggle.
 2. Place the dataset file (hospital_deterioration_ml_ready.csv)
