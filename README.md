@@ -89,13 +89,20 @@ In a real deployment, it would be connected to live hospital systems.
 .
 ├── model_training/
 │   ├── train_model.ipynb
-│   
+│   └── hospital_deterioration_ml_ready.csv
+│
 ├── gui/
 │   ├── app.py
 │   ├── patients_db.csv
-|
+│   ├── rf_deterioration_model.pkl
+│   └── feature_columns.pkl
+│
+├── report/
+│   └── AI_Project_Report.pdf
+│
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── .gitignore
 ```
 ## How to Run the Project (Step-by-Step)
 
