@@ -9,7 +9,7 @@ recommendations.
 
 ---
 
-## 📌 Purpose of the GUI
+## Purpose of the GUI
 
 The GUI enables users to:
 
@@ -25,7 +25,7 @@ behavior and interaction.
 
 ---
 
-## 📂 Files in This Folder
+## Files in This Folder
 
 - `app.py`  
   Streamlit application implementing the GUI and decision-support logic.
@@ -40,21 +40,10 @@ behavior and interaction.
 - `feature_columns.pkl` *(generated locally)*  
   List of feature columns required by the trained model.
 
-> ⚠️ The `.pkl` files are **not included in the GitHub repository** due to
+> The `.pkl` files are **not included in the GitHub repository** due to
 > file size limitations.
 
 ---
-
-## ⚙️ Prerequisites
-
-Before running the GUI, make sure you have:
-
-- Python 3.8 or higher
-- All required Python libraries installed
-
-Install dependencies from the project root using:
-
-pip install -r requirements.txt
 
 ## Generating and Using Model Files (`.pkl`)
 
@@ -64,12 +53,6 @@ to perform deterioration risk prediction.
 ### Step 1: Generate the model files
 From the project root directory, run the training script:
 
-```bash
+```bash 
 python model_training/train_model.py
-
-gui/
-├── app.py
-├── patients_db.csv
-├── rf_deterioration_model.pkl
-└── feature_columns.pkl
 
